@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dodge the Falling Objects</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <section class="hud" aria-label="Game information">
+      <h1>Dodge!</h1>
+      <p>Score: <span id="score">0</span> | Best: <span id="best">0</span></p>
+    </section>
+    <canvas id="gameCanvas" width="420" height="620" aria-label="Dodge game"></canvas>
+    <p id="message">Press Space to start. Use A/D or the arrow keys to move.</p>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
